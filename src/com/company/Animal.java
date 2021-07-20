@@ -4,6 +4,16 @@ public class Animal {
 
     String name;
     String color;
+    String classification;
+
+    public String getClassification() {
+        return classification;
+    }
+
+    public Animal setClassification(String classification) {
+        this.classification = classification;
+        return this;
+    }
 
     public String getName() {
         return name;
