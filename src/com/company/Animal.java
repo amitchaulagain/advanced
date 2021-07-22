@@ -4,14 +4,15 @@ public class Animal {
 
     String name;
     String color;
-    String family;
+    String category;
 
-    public String getFamily() {
-        return family;
+    public String getCategory() {
+        return category;
     }
 
-    public void setFamily(String family) {
-        this.family = family;
+    public Animal setCategory(String category) {
+        this.category = category;
+        return this;
     }
 
     public String getName() {
